@@ -1,5 +1,16 @@
-const reverseString = function() {
+const reverseString = function(string) {
+    /*
+    turn string into array
+    loop thru
+    insert to new array from behind
+    */
+   const arr = string.split("");
+   const reverseArr = [];
 
+   for (const i of arr) {
+    reverseArr.unshift(i);
+   }
+   return reverseArr.join("");
 };
 
 // Do not edit below this line
