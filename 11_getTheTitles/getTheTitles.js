@@ -1,10 +1,6 @@
 const getTheTitles = function(arr) {
-    let books = [];
-    for (let i = 0; i < arr.length; i++) {
-        books.push(arr[i]["title"]);
-    }
-    return books;
-};
+    return arr.map(char => char.title);
+}
 
 // Do not edit below this line
 module.exports = getTheTitles;
