@@ -1,5 +1,5 @@
 const getTheTitles = function(arr) {
-    return arr.map(char => char.title);
+    return arr.map(item => item.title);
 }
 
 // Do not edit below this line
